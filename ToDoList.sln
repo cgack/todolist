@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.API", "TodoList.API\TodoList.API.csproj", "{FF472483-7F65-4B1B-A518-2A4B013F125E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.ng", "TodoList.ng\TodoList.ng.csproj", "{209CEF97-D1BF-4A66-94FB-0DD2AD662172}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF472483-7F65-4B1B-A518-2A4B013F125E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF472483-7F65-4B1B-A518-2A4B013F125E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF472483-7F65-4B1B-A518-2A4B013F125E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF472483-7F65-4B1B-A518-2A4B013F125E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209CEF97-D1BF-4A66-94FB-0DD2AD662172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209CEF97-D1BF-4A66-94FB-0DD2AD662172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209CEF97-D1BF-4A66-94FB-0DD2AD662172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209CEF97-D1BF-4A66-94FB-0DD2AD662172}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
