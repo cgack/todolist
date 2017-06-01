@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.API", "TodoList.AP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.ng", "TodoList.ng\TodoList.ng.csproj", "{209CEF97-D1BF-4A66-94FB-0DD2AD662172}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.test", "TodoList.test\TodoList.test.csproj", "{181F50F4-CA07-44BE-9174-A96C10761E8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{209CEF97-D1BF-4A66-94FB-0DD2AD662172}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{209CEF97-D1BF-4A66-94FB-0DD2AD662172}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{209CEF97-D1BF-4A66-94FB-0DD2AD662172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181F50F4-CA07-44BE-9174-A96C10761E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181F50F4-CA07-44BE-9174-A96C10761E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181F50F4-CA07-44BE-9174-A96C10761E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181F50F4-CA07-44BE-9174-A96C10761E8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

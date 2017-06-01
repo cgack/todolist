@@ -46,7 +46,8 @@
                         </div>
                         <input type="submit" class="btn btn-default" Value="Update" />
                     </form>
-                    <a class="form-control btn btn-primary" ng-click="markComplete(todo)">Mark Completed</a>
+                    <a class="form-control btn btn-primary" ng-click="markComplete(todo)"><span ng-if="todo.complete">Mark UnComplete</span><span ng-if="!todo.complete">Mark Completed</span></a>
+                    @*<a class="form-control btn btn-primary" ng-click="markUnComplete(todo)">Mark UnComplete</a>*@
                     <a class="form-control btn btn-danger" ng-click="removeTodo(todo.id)">Remove</a>
                 </div>
             </div>

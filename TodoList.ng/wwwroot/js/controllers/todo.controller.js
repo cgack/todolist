@@ -4,7 +4,8 @@
 
     TodoController.$inject = ["$scope", "todoService"];
     function TodoController($scope, todoService) {
-        $scope.today = new Date();
+        var dt = new Date();
+        $scope.today = new Date(dt.getFullYear(), dt.getMonth(), dt.getDate());
         this.$onInit = function () {
             todoService.getAll().then(function (response) {
                 
@@ -29,7 +30,12 @@
         }
 
         $scope.markComplete = function(todo) {
-            todo.complete = true;
+            todo.complete = !todo.complete;
+            todoService.update(todo);
+        }
+
+        $scope.markUnComplete = function(todo) {
+            todo.complete = false;
             todoService.update(todo);
         }
 
